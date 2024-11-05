@@ -1,0 +1,120 @@
+body {
+    background-color:lightblue;
+    color:white;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.top-container {
+    position: relative;  
+    text-align: center;
+    width: 100%;
+}
+
+.background img{
+width: 100%;
+height: 700px;
+opacity: 0.4;
+}
+
+.title-text {
+position: absolute;
+  top: 25%;
+  left: 25%;
+  text-align:left;
+}
+
+.title-text h1{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:100px;
+}
+
+.profile{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    margin: 100px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.profile-img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+}
+
+.projects-heading{
+    text-align:center;
+    margin:100px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat (3 0.5fr);
+    width:100%;
+    margin: 100px 100px 100px 300px;
+    text-align: left;
+    row-gap: 100px;
+}
+
+.projects img{
+    height:400px;
+    width:400px;
+}
+
+.diverse-background {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin: 150px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center; 
+}
+
+
+.diverse-background p{
+    margin:0;
+}
+
+.resume-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:50px;
+}
+
+.bottom-container {
+    background-color: cornflowerblue;
+}
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+
+button .contact-me {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+.icon-link {
+    margin: 10px;
+}
